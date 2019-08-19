@@ -1892,17 +1892,8 @@ article:last-child {
 
 .image.fit {
 	display: block;
-	width: 75%;
-}
-.image.fit:hover {
-	display: block;
 	width: 100%;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
 }
-
 
 .image.featured {
 	display: block;
@@ -2769,10 +2760,16 @@ button:active,
 	}
 
 }
-.image fit{
-	width: 400px;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
+article.item{
+	margin: 25px auto;
+	width: 100%;
+}
+article.item:hover{
+	margin: 50px auto;
+	width: 150%;
+-webkit-transition: all 5s ease;
+	-moz-transition: all 5s ease;
+	-ms-transition: all 5s ease;
+	transition: all 5s ease;
+	position: relative;
 }
