@@ -2766,10 +2766,12 @@ article.item{
 }
 article.item:hover{
 	margin: 50px auto;
-	width: 150%;
+	width: 50%;
 -webkit-transition: all 5s ease;
 	-moz-transition: all 5s ease;
 	-ms-transition: all 5s ease;
 	transition: all 5s ease;
-	position: relative;
+	position: absolute;
+	right:10%;
+	left: 10%;
 }
