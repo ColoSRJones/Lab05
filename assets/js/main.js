@@ -139,13 +139,5 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); 
-  setInterval(function() { 
-  $('#showSlides')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .app// Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
