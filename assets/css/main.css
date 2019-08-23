@@ -2635,7 +2635,7 @@ button:active,
 		-moz-osx-font-smoothing: grayscale;
 		content: '\f0c9';
 		color: #fff;
-		font-size: 18px;
+		font-size: 24px;
 		line-height: 2.25em;
 		background: rgba(255, 82, 0, 0.750);
 		border-radius: 0.35em;
@@ -2779,99 +2779,98 @@ article {box-sizing:border-box}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1500px;
-  border: 10px solid orangered;
-  border-radius: 25px;
   width: 100%;
   position: relative;
   margin: auto;
-  box-shadow: 0 0 20px rgba(0,0,0,1.9); 
+  border: 25px solid rgba(255, 82, 0, 0.750);
+  border-radius: 25px;
+  -moz-box-shadow: 0 0 15px 15px rgba(0, 35, 76, 0.750);
+-webkit-box-shadow: 0 0 15px 15px rgba(0, 35, 76, 0.750);
+box-shadow: 0 0 15px 15px rgba(0, 35, 76, 0.750);
 }
 
 /* Next & previous buttons */
 /* .prev, .next {
+  width: 1600px;
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: orangered;
+  color: rgba(0, 35, 76, 0.750);
   font-weight: bold;
-  font-size: 3em;
+  font-size: 48px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  margin: auto;
-  margin-right: 25px;
-  margin-left: 25px;
 } */
 
 /* Position the "next button" to the right */
 /* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-left: 25px;
 } */
 
 /* On hover, add a black background color with a little bit see-through */
 /* .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-  margin-left: 25px;
-  margin-right: 25px;
 } */
-
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: rgba(0, 35, 76, 0.750);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
+  bottom: 5px;
   width: 100%;
   text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  background-color: rgba(0, 35, 76, 0.750);
+  font-size: 45px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  right: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
   margin: 0 2px;
-  background-color: orangered;
+  background-color: rgba(255, 82, 0, 0.750);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-bottom: 15px auto;
 }
 
 .active, .dot:hover {
-  background-color: navy;
+  background-color: rgba(0, 35, 76, 0.750);
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 10}
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 10}
+  from {opacity: .4} 
+  to {opacity: 1}
 }
